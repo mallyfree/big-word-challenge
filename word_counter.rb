@@ -1,4 +1,18 @@
 class WordCounter
+ attr_accessor :word,
+  def intialize WordCounter
+    self.word = []
+    word_counter = 0
+  end
+
+  def word_length
+    self.word.length? == 5
+  end
+
+  def count_of_words_matching_length
+    word_length
+  end
+
   # Your code goes here
 end
 
